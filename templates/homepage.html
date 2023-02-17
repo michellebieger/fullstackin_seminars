@@ -1,33 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Dan</title>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, inital-scale=1"/>
-        <!--            STYLE TAGS -->
-        <!--    keep style tags in the head
-                classes start with .
-                ids start with #
-                Typically things are styled with classes
-                and ids are used for very specific things, they can get complicated -->
-        <!-- <link rel="stylesheet" href="style.css"/>
-        <script src="logic.jss"></script> -->
-    </head>
-    <body>
-        <!-- <div class="topnav">
-            <a class="active" href="index.html">home</a>
-            <a href="publications.html">publications</a>
-            <a href="code.html">code</a>
-            <a href="cv.html">cv</a>
-            <a href="gallery.html">photography</a>
-            <!-- Photography tab? That would be cool -->
-        <!-- </div>
-        <div> -->
-            <!-- Keep the colour backgroud? -->
-            <!-- What theme do you want? -->
-            <!-- Maybe browse some sites that give html templates -->
-        <h1>Hi, I'm Dan.</h1>
-        <p>Welcome to my site</p>
-        <p>Need content to add here, maybe the intro?</p>
-    </body>
-</html>
+{% extend "base.html" %}{%block content%}
+
+<h1>hello,world!</h1>
+
+{% endblock %}
