@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "3Degrees Project"
+version = "0.0.0"
+description = "A book club for a burning planet"
+authors = ["M.F. Bieger <michellebieger@live.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
